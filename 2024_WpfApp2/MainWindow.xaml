@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="我的第一個視窗" Height="450" Width="800" Background="#FFEEEACB">
     <Grid>
-        <Button x:Name="MyButton" Content="請按我" HorizontalAlignment="Left" Margin="125,65,0,0" VerticalAlignment="Top" Height="70" Width="175" FontSize="24" Click="MyButton_Click"/>
+        <Button x:Name="MyButton" Content="請按我" HorizontalAlignment="Left" Margin="125,65,0,0" VerticalAlignment="Top" Height="70" Width="175" FontSize="24" Click="MyButton_Click" Background="Cyan"  FontFamily="Arial"/>
 
     </Grid>
 </Window>
