@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="我的第一個視窗" Height="450" Width="800" Background="#FFEEEACB">
     <Grid>
-        <Button x:Name="MyButton" Content="請按我" HorizontalAlignment="Left" Margin="125,65,0,0" VerticalAlignment="Top" Height="70" Width="175" FontSize="24" Click="MyButton_Click" Background="Cyan"  FontFamily="Arial"/>
-
+        <Button x:Name="MyButton" Content="OK" HorizontalAlignment="Left" Margin="400,44,0,0" VerticalAlignment="Top" Height="41" Width="175" FontSize="24" Click="MyButton_Click" Background="Cyan"  FontFamily="Arial"/>
+        <Label Content="請輸入一個數值" HorizontalAlignment="Left" Margin="40,44,0,0" VerticalAlignment="Top" FontSize="20" Width="170" Height="40"/>
+        <TextBox x:Name="MyTextBox" HorizontalAlignment="Left" Margin="215,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Height="42" FontSize="20" VerticalContentAlignment="Center"/>
+        <TextBlock x:Name="MyTextBlock" HorizontalAlignment="Left" Margin="50,105,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="300" Width="710" FontSize="20" Background="Azure" FontFamily="Consolas"/>
     </Grid>
 </Window>
