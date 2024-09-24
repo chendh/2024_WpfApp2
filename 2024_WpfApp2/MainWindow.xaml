@@ -5,9 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2024_WpfApp2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="#FFF6DCDC">
+        Title="計算質數" Height="450" Width="800" Background="#FFF6DCDC">
     <Grid>
-        <Button x:Name="MyButton" Content="Hello" HorizontalAlignment="Left" Margin="140,60,0,0" VerticalAlignment="Top" Height="65" Width="120" FontSize="18" FontWeight="Bold" Click="MyButton_Click" Background="#FFDB3232" Foreground="#FFD0DEA2"/>
+        <Button x:Name="MyButton" Content="計算質數" HorizontalAlignment="Left" Margin="515,32,0,0" VerticalAlignment="Top" Height="32" Width="120" FontSize="18" FontWeight="Bold" Click="MyButton_Click" Background="#FFDB3232" Foreground="#FFD0DEA2"/>
+        <Label Content="請輸入一個數值" HorizontalAlignment="Left" Margin="40,34,0,0" VerticalAlignment="Top" Width="115" FontSize="14"/>
+        <TextBox x:Name="MyTextBox" HorizontalAlignment="Left" Margin="170,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295" Height="35" VerticalContentAlignment="Center" FontSize="14"/>
+        <TextBlock x:Name="MyTextBlock" HorizontalAlignment="Left" Margin="50,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="325" Width="725" Background="#FFEFEEE3" FontSize="18" FontFamily="Consolas"/>
 
     </Grid>
 </Window>
